@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.count{
+    padding-left: 450px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 45px;
+    color: rgb(31, 30, 30);
+}
+
+h1{
+    position: relative;
+    display:inline-block;
+}
+h1::after {
+    position: absolute;
+    content: '';
+    top: 37%;
+    right: 0%;
+    height: 40px;
+    width: 1px;
+    background: rgb(10, 10, 10);
+    animation: lafalafi .5s infinite;
+    -webkit-animation: lafalafi .8s infinite;
+}
+
+@keyframes lafalafi{
+    from{
+        opacity: 0;
+    }
+    start{
+        opacity: 1;
+    }
+}
